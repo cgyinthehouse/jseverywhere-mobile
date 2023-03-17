@@ -3,7 +3,10 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "jsx": "react-native",
-    "lib": ["dom", "esnext"],
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "module": "CommonJS",
     "moduleResolution": "node",
     "noEmit": false,
@@ -13,7 +16,8 @@
     "outDir": "./dist-js"
   },
   "exclude": [
-      "node_modules",
-      "./dist-js"
-  ]
+    "node_modules",
+    "./dist-js"
+  ],
+  "extends": "expo/tsconfig.base"
 }
